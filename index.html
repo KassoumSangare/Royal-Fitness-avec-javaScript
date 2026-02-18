@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Royal Fitness</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav__logo">
+        Royal <span class="nav__logo-accent">Fitness</span>
+      </div>
+      <div>
+        <ul class="nav__menu">
+          <li class="nav__item"><a href="#">Accueil</a></li>
+          <li class="nav__item"><a href="#">Services</a></li>
+          <li class="nav__item"><a href="#">À propos</a></li>
+          <li class="nav__item"><a href="#">Tarifs</a></li>
+          <li class="nav__item"><a href="#">Témoignages</a></li>
+        </ul>
+      </div>
+      <button class="nav__button">Rejoignez-nous</button>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section class="home">
+      <h1 class="home__watermark">FITNESS</h1>
+      <div class="home__left">
+        <h1 class="home__title">Construisez Votre <br />Physique de Rêve</h1>
+        <p class="home__subtitle">
+          Transformez votre corps avec notre programme
+        </p>
+        <p class="home__description">
+          Découvrez une approche révolutionnaire du fitness qui combine
+          entraînement personnalisé, nutrition adaptée et suivi professionnel
+          pour des résultats garantis.
+        </p>
+        <button class="home__button">Rejoignez-nous</button>
+      </div>
+      <div class="home__right">
+        <img
+          src="./images/heroImage.png"
+          alt="Athlète en entraînement"
+          class="home__image"
+        />
+      </div>
+    </section>
+
+    <!-- Nos Services -->
+    <section class="services">
+      <h1 class="services__title">
+        Nos <span class="services__title-accent">Services</span>
+      </h1>
+      <div class="services__container">
+        <div class="services__row">
+          <div class="services__box">
+            <img src="./images/image1.jpg" alt="Développé couché" />
+            <h2 class="services__subtitle">Développé couché</h2>
+          </div>
+          <div class="services__box">
+            <img src="./images/image2.jpg" alt="Entraînement physique" />
+            <h2 class="services__subtitle">Physique</h2>
+          </div>
+          <div class="services__box">
+            <img src="./images/image3.jpg" alt="Jeux de corde" />
+            <h2 class="services__subtitle">Jeux de corde</h2>
+          </div>
+        </div>
+        <div class="services__row">
+          <div class="services__box">
+            <img src="./images/image4.jpg" alt="Entraînement physique" />
+            <h2 class="services__subtitle">Physique</h2>
+          </div>
+          <div class="services__box">
+            <img src="./images/image5.jpg" alt="Entraînement physique" />
+            <h2 class="services__subtitle">Physique</h2>
+          </div>
+          <div class="services__box">
+            <img src="./images/about.jpg" alt="Cardio training" />
+            <h2 class="services__subtitle">Cardio</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- À Propos -->
+    <section class="about">
+      <div class="about__container">
+        <div class="about__image-box">
+          <img src="./images/about.jpg" alt="Notre équipement" />
+        </div>
+        <div class="about__text-box">
+          <h1 class="about__title">Pourquoi Nous <br />Choisir ?</h1>
+          <p>
+            Chez Royal Fitness, nous offrons bien plus qu'un simple abonnement
+            gym. Notre équipe de coachs certifiés vous accompagne à chaque étape
+            de votre transformation pour atteindre vos objectifs fitness.
+          </p>
+          <p>Équipement dernier cri et installations modernes</p>
+          <p>Plans d'entraînement personnalisés selon vos besoins</p>
+          <p>
+            Suivi nutritionnel complet et conseils d'experts pour maximiser vos
+            résultats. <br />
+            Communauté motivante et bienveillante pour vous soutenir.
+          </p>
+          <button class="about__button">Réservez un Cours Gratuit</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nos Forfaits -->
+    <section class="plans">
+      <h1 class="plans__title">
+        Nos <span class="plans__title-accent">Forfaits</span>
+      </h1>
+      <div class="plans__row">
+        <div class="plans__box">
+          <h2 class="plans__box-title">BASIC</h2>
+          <p class="plans__box-price">100€/Mois</p>
+          <ul class="plans__items">
+            <li class="plans__item">Programme d'entraînement intelligent</li>
+            <li class="plans__item">Exercices à domicile</li>
+          </ul>
+          <a href="#" class="plans__link">S'inscrire maintenant</a>
+        </div>
+        <div class="plans__box">
+          <h2 class="plans__box-title">PRO</h2>
+          <p class="plans__box-price">150€/Mois</p>
+          <ul class="plans__items">
+            <li class="plans__item">Accès aux salles Pro</li>
+            <li class="plans__item">Programme d'entraînement intelligent</li>
+            <li class="plans__item">Exercices à domicile</li>
+          </ul>
+          <a href="#" class="plans__link">S'inscrire maintenant</a>
+        </div>
+        <div class="plans__box">
+          <h2 class="plans__box-title">PREMIUM</h2>
+          <p class="plans__box-price">300€/Mois</p>
+          <ul class="plans__items">
+            <li class="plans__item">Salles et cours ELITE</li>
+            <li class="plans__item">Accès aux salles Pro</li>
+            <li class="plans__item">Programme d'entraînement intelligent</li>
+            <li class="plans__item">Exercices à domicile</li>
+            <li class="plans__item">Coaching personnel</li>
+          </ul>
+          <a href="#" class="plans__link">S'inscrire maintenant</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Temoingnages -->
+
+    <section class="testimonial">
+      <h1 class="testimonial__title">Témoignages</h1>
+      <div class="container">
+        <div class="box">
+          <div class="box-image">
+            <img src="./images/1.jpg" alt="" class="customer-image" />
+          </div>
+          <h2 class="customer--name">Marie Dupont</h2>
+          <p class="note">★★★★★</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            excepturi aspernatur cum cupiditate ad minima facilis nostrum,
+            reiciendis sit ipsum, eum laborum, assumenda ipsam asperiores
+          </p>
+        </div>
+        <div class="box">
+          <div class="box-image">
+            <img src="./images/2.jpg" alt="" class="customer-image" />
+          </div>
+          <h2 class="customer--name">Jean Martin</h2>
+          <p class="note">★★★★★</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            excepturi aspernatur cum cupiditate ad minima facilis nostrum,
+            reiciendis sit ipsum, eum laborum, assumenda ipsam asperiores
+          </p>
+        </div>
+        <div class="box">
+          <div class="box-image">
+            <img src="./images/3.jpg" alt="" class="customer-image" />
+          </div>
+          <h2 class="customer--name">Sophie Laurent</h2>
+          <p class="note">★★★★★</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            excepturi aspernatur cum cupiditate ad minima facilis nostrum,
+            reiciendis sit ipsum, eum laborum, assumenda ipsam asperiores
+          </p>
+        </div>
+      </div>
+    </section>
+ <footer>
+  <div class="footer-container">
+    <div class="social-links">
+      <a href="#"><i class="bi bi-twitter-x"></i></a>
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
+    </div>
+    
+    <p class="copyright">
+      &copy; 2026 devSang. All rights reserved.
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
